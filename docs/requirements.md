@@ -1,10 +1,12 @@
 # Requirements
 
 ## Problem Statement
-Deployment aplikasi Flask pada infrastruktur VPS Ubuntu Server 24.04 dengan reverse proxy Caddy dan manajemen service menggunakan systemd.
+Kebutuhan akan aplikasi web (Outfitly) untuk mengelola koleksi pakaian dan *mix & match*. 
+Namun fokus utama pada tahap ini adalah deployment aplikasi Flask pada infrastruktur VPS Ubuntu Server 24.04 dengan reverse proxy Caddy dan manajemen service menggunakan systemd.
 
 ## Target Users
-Mahasiswa dan Dosen Pengampu Matakuliah Cloud Computing (PTI 2802).
+- Pengguna personal, seperti mahasiswa dan pekerja, yang ingin mengelola koleksi pakaian serta membuat kombinasi outfit (Mix & Match) secara mandiri.
+- Dosen pengampu Matakuliah Cloud Computing (PTI 2802).
 
 ## Functional Requirements
 - FR-01 Aplikasi menyajikan halaman utama pada endpoint `/`.
