@@ -1,3 +1,5 @@
+# cc-25832071008-outfitly
+
 Cloud Computing — PTI 2802  
 Pertemuan 3 — Project Inception
 
@@ -13,11 +15,6 @@ Namun fokus utama pada tahap ini adalah deployment aplikasi web Flask ke infrast
 ## Target Users
 - Pengguna personal, seperti mahasiswa dan pekerja, yang ingin mengelola koleksi pakaian serta membuat kombinasi outfit (Mix & Match) secara mandiri.
 - Dosen pengampu Mata Kuliah Cloud Computing (PTI 2802) sebagai penilai proyek.
-
-## Features M03
-- baseline application (`/`)
-- health check endpoint (`/health`)
-- VPS deployment dengan Caddy & systemd
 
 ## Features M03
 - baseline application (`/`)
