@@ -1,5 +1,3 @@
-# cc-25832071008-eduquizstudio
-
 Cloud Computing — PTI 2802  
 Pertemuan 3 — Project Inception
 
@@ -9,10 +7,17 @@ Pertemuan 3 — Project Inception
 - **Kelas:** [2A]
 
 ## Problem
-Deployment aplikasi web Flask ke infrastruktur VPS Ubuntu Server 24.04 menggunakan Gunicorn, systemd, dan reverse proxy Caddy.
+Kebutuhan akan aplikasi web (Outfitly) untuk mengelola koleksi pakaian dan *mix & match*. 
+Namun fokus utama pada tahap ini adalah deployment aplikasi web Flask ke infrastruktur VPS Ubuntu Server 24.04 menggunakan Gunicorn, systemd, dan reverse proxy Caddy.
 
 ## Target Users
-Mahasiswa dan Dosen Pengampu Mata Kuliah Cloud Computing (PTI 2802).
+- Pengguna personal, seperti mahasiswa dan pekerja, yang ingin mengelola koleksi pakaian serta membuat kombinasi outfit (Mix & Match) secara mandiri.
+- Dosen pengampu Mata Kuliah Cloud Computing (PTI 2802) sebagai penilai proyek.
+
+## Features M03
+- baseline application (`/`)
+- health check endpoint (`/health`)
+- VPS deployment dengan Caddy & systemd
 
 ## Features M03
 - baseline application (`/`)
@@ -26,3 +31,4 @@ flowchart LR
     U[User] --> C[Caddy]
     C --> G[Gunicorn]
     G --> F[Flask]
+
